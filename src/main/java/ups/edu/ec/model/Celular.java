@@ -3,6 +3,7 @@ package ups.edu.ec.model;
 import java.io.Serializable;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
@@ -11,6 +12,7 @@ public class Celular implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue
 	private int codigo;
 	private String IMEI;
 	private String color;

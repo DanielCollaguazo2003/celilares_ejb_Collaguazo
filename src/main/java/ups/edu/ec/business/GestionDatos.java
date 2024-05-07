@@ -24,7 +24,6 @@ public class GestionDatos {
 		System.out.println("iniciando");
 
 		Celular Celular = new Celular();
-		Celular.setCodigo(1);
 		Celular.setIMEI("098765432123456789");
 		Celular.setColor("Negro");
 		Celular.setMarca("Iphone");
